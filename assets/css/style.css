@@ -377,10 +377,10 @@ html, body {
         z-index: 1;
       }
 
-#link-text {
-  text-decoration: none;
-  color: inherit;
-}
+      .link-text {
+        text-decoration: none;
+        color: inherit;
+      }
 
       /* site-section */
       .site-section {
@@ -774,18 +774,17 @@ html, body {
         padding: 0;
       }
 
-/* --------------ELSA---------------------------- */
-
+      /* --------------ELSA---------------------------- */
       .portfolio-gallery {
-          margin-top: 30px;
-          margin-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
       }
 
       .owl-theme .owl-nav [class*="owl-"] {
-          background: #FF5800!important;
+        background: #FF5800 !important;
       }
 
       .owl-theme .owl-dots .owl-dot.active span,
       .owl-theme .owl-dots .owl-dot:hover span {
-          background: #FF5800!important;
+        background: #FF5800 !important;
       }

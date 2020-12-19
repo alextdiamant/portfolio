@@ -27,6 +27,11 @@
 	}
 }
 
+.link-text {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 	/* CUSTOM RESETS
@@ -35,13 +40,13 @@
 		font-size: 24px;
 	}
 
-	/* Buttons */ 
+	/* Buttons */
 	.btn {
 	    min-width: 120px;
 	    line-height: 40px;
 	    padding: 0 25px;
 	    font-size: 14px;
-	} 
+	}
 
 	/* HEADER
 	================================================== */
@@ -70,6 +75,11 @@
 
 	/* SITEMAIN
 	================================================== */
+	.link-text {
+		text-decoration: none;
+		color: inherit;
+	}
+
 	.site-section {
 		padding-top: 90px;
 	}
@@ -103,9 +113,9 @@
 	.section-services .container {
 		padding: 70px 90px;
 	}
-	
+
 	.service h4 {
-		font-size: 22px; 
+		font-size: 22px;
 	}
 
 	/* Section: Portfolio */
@@ -140,12 +150,12 @@
 		font-size: 20px;
 	}
 
-	/* Buttons */ 
+	/* Buttons */
 	.btn {
 	    min-width: 100px;
 	    line-height: 30px;
 	    padding: 0 20px;
-	} 
+	}
 
 	/* Input fields */
 	.form-control {
@@ -186,11 +196,11 @@
 	}
 
 	.navbar-toggle .icon-bar + .icon-bar {
-		margin-top: 6px; 
+		margin-top: 6px;
 	}
 
-	.navbar-toggle.act .icon-bar:first-child, 
-	.navbar-toggle.act .icon-bar:last-child  { 
+	.navbar-toggle.act .icon-bar:first-child,
+	.navbar-toggle.act .icon-bar:last-child  {
 	    position: absolute;
 	    top: 10px;
 	    height: 2px;
@@ -313,6 +323,11 @@
 
 	/* SITEMAIN
 	================================================== */
+	.link-text {
+		text-decoration: none;
+		color: inherit;
+	}
+
 	.site-main {
 		margin-bottom: 140px;
 	}
@@ -367,7 +382,7 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 15px; 
+		margin-bottom: 15px;
 	}
 
 	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
@@ -401,7 +416,7 @@
 	}
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
 	.visible-xxs {
 		display: block;
@@ -415,6 +430,11 @@
 
 	/* SITEMAIN
 	================================================== */
+	.link-text {
+		text-decoration: none;
+		color: inherit;
+	}
+
 	.site-main {
 		margin-bottom: 180px;
 	}
@@ -435,7 +455,7 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 0px; 
+		margin-bottom: 0px;
 	}
 
 	.section-portfolio .btn {
@@ -446,7 +466,7 @@
 	================================================== */
 	.site-footer .row {
 		display:flex;
-		flex-direction: column-reverse;	
+		flex-direction: column-reverse;
 	}
 
 	.site-footer .text-right{
