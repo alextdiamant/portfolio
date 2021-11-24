@@ -32,7 +32,7 @@ $(function() {
 	        transition_delay: 500
 	    });
     }
-    
+
     $(document).bind('scroll', function(ev) {
         var scrollOffset = $(document).scrollTop();
         var containerOffset = $section.offset().top - window.innerHeight;
@@ -85,5 +85,20 @@ $(function() {
                 return false;
             }
     });
-    
+
 });
+
+var data = { key: "93c4c1ec31cea430b5768e13c81efaba", q: "https://alextdiamant.github.io/portfolio/" };
+
+fetch("https://api.linkpreview.net", {
+  method: "POST",
+  mode: "cors",
+  body: JSON.stringify(data)
+})
+  .then((res) => res.json())
+  .then((response) => {
+    document.getElementById("mytitle").innerHTML = response.title;
+    document.getElementById("mydescription").innerHTML = response.description;
+    document.getElementById("myimage").src = response.image;
+    document.getElementById("myurl").innerHTML = response.url;
+  });
